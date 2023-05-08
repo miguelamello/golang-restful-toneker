@@ -26,10 +26,10 @@ Please take a look at the OpenAPI specification file `openapi.yaml` for more det
 
 For now the exposes the following routes:
 
-- `GET /` - Returns the API presentation
+- `GET /` - Returns API presentation
 
-- `GET /reference` - Returns the API reference
+- `GET /reference` - Returns API reference
 
-- `POST /token` - Generates a new token and stores it in the database. The token is valid for 24 hours. The token is returned in the response body.
+- `POST /token` - Generates a new token and stores it in the database. The token is valid for 24 hours. The token is returned in response body.
 
 
