@@ -3,6 +3,7 @@ package main
 import (
 	"net/http"
 	"tokener/routes"
+	"github.com/sirupsen/logrus"
 )
 
 func main() {
@@ -14,5 +15,6 @@ func main() {
 
 	// Listen on port 8000
 	http.ListenAndServe(":8000", nil)
+	logrus.Info("Server started on port 8000")
 	
 }
