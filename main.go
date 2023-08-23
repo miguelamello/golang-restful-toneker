@@ -13,8 +13,8 @@ func main() {
 	http.HandleFunc("/reference", routes.GetReference)
 	http.HandleFunc("/token", routes.GetToken)
 
-	// Listen on port 8000
-	http.ListenAndServe(":8000", nil)
-	logrus.Info("Server started on port 8000")
+	// Listen on port 3010
+	http.ListenAndServe(":3010", nil)
+	logrus.Info("Server started on port 3010")
 	
 }
