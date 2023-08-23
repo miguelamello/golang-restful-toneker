@@ -8,7 +8,7 @@ This microservice aims to generate tokens for the clients, so they can use the t
 - MongoDB
 - Redis
 - GORM
-- CentOS
+- AWS EC2
 
 **Golang** is a programming language created by Google. It is a statically-typed language with syntax loosely derived from that of C, adding garbage collection, type safety, some dynamic-typing capabilities, additional built-in types such as variable-length arrays and key-value maps, and a large standard library.I chose Golang for that project because it is a fast, reliable, typed and compiled language and so it is perfect for microservices. 
 
