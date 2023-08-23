@@ -18,7 +18,7 @@ This microservice aims to generate tokens for the clients, so they can use the t
 
 **GORM** is a Golang ORM library developed on top of database/sql. I chose GORM because it is a very powerful ORM library, easy to use and so it is perfect for microservices. GORM is used for Mongo database operations. ORM makes database operations better integrated with the code.
 
-**CentOS** is a Linux distribution that provides a free, community-supported computing platform functionally compatible with its upstream source, Red Hat Enterprise Linux. I chose CentOS because it is a very stable Linux distribution, perfect for production environments and so it is perfect for microservices.
+**AWS EC2** Amazon Elastic Compute Cloud (Amazon EC2) is a widely-used web service offered by Amazon Web Services (AWS) that provides scalable and resizable computing capacity in the cloud. It allows users to create and manage virtual machines, known as instances, on-demand. EC2 instances can be customized with various combinations of CPU, memory, storage, and networking resources to meet specific application requirements. I chose AWS EC2 because it is a very powerful cloud computing service, easy to use and so it is perfect for microservices. AWS EC2 is used for hosting the microservice.
 
 ## How it works
 
